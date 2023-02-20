@@ -1,0 +1,244 @@
+.content-table {
+    border-collapse: collapse;
+    margin: 5px 0;
+    font-size: 0.9em;
+    min-width: auto;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+}
+
+.content-table thead tr {
+    background-color: #FF9046;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 8px 20px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #FF9046;
+}
+
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #201919;
+}
+.button {
+	
+	display: flex;
+	height: 40px;
+	width: fit-content;
+	padding: 0;
+	background: #FF9046;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	overflow: hidden;
+	font-family: "Poppins", sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.button:hover {
+	background: #ff9955;
+}
+
+.button:active {
+	background: #a35c00;
+}
+
+.button__text,
+.button__icon {
+	display: inline-flex;
+	align-items: center;
+	padding: 0 24px;
+	color: #fff;
+	height: 100%;
+}
+
+.button__icon {
+	font-size: 1.5em;
+	background: rgba(0, 0, 0, 0.08);
+}
+
+.choicecomp{
+    font-size: 1.15rem;
+}
+.cputext {
+	width: 100%;
+	height: auto;
+  }
+  
+.post-textcpu{
+	margin-top: 2.5px;
+	float: left;
+	width: 80%;
+	text-align: justify;
+	
+  }
+  
+.cpu-img {
+	float: right;
+	width: 19%;
+	position: relative;
+	bottom: 20px;
+  }
+
+.cpucoolertext {
+	width: 100%;
+	height: auto;
+  }
+  
+.post-textcpucooler{
+	margin-top: 2.5px;
+	float: left;
+	width: 80%;
+	text-align: justify;
+	
+  }
+  
+.cpucooler-img {
+	float: right;
+	width: 19%;
+	position: relative;
+	bottom: -20px;
+  }
+
+  .motherboardtext {
+	width: 100%;
+	height: auto;
+  }
+  
+.post-textmotherboard{
+	margin-top: 2.5px;
+	float: left;
+	width: 80%;
+	text-align: justify;
+	
+  }
+  
+.motherboard-img {
+	float: right;
+	width: 19%;
+	position: relative;
+	bottom: px;
+  }
+
+  .ramtext {
+	width: 100%;
+	height: auto;
+  }
+  
+.post-textram{
+	margin-top: 2.5px;
+	float: left;
+	width: 80%;
+	text-align: justify;
+	
+  }
+  
+.ram-img {
+	float: right;
+	width: 19%;
+	position: relative;
+	bottom: px;
+  }
+
+  .storagetext {
+	width: 100%;
+	height: auto;
+  }
+  
+.post-textstorage{
+	margin-top: 2.5px;
+	float: left;
+	width: 80%;
+	text-align: justify;
+	
+  }
+  
+.storage-img {
+	float: right;
+	width: 19%;
+	position: relative;
+	bottom: -30px;
+  }
+
+  .gputext {
+	width: 100%;
+	height: auto;
+  }
+  
+.post-textgpu{
+	margin-top: 2.5px;
+	float: left;
+	width: 80%;
+	text-align: justify;
+	
+  }
+  
+.gpu-img {
+	float: right;
+	width: 19%;
+	position: relative;
+	bottom: +15px;
+  }
+
+  .casetext {
+	width: 100%;
+	height: auto;
+  }
+  
+.post-textcase{
+	margin-top: 2.5px;
+	float: left;
+	width: 80%;
+	text-align: justify;
+	
+  }
+  
+.case-img {
+	float: right;
+	margin-right: 27px;
+	width: 12%;
+	position: relative;
+	bottom: +25px;
+  }
+
+.powertext {
+	width: 100%;
+	height: auto;
+  }
+  
+.post-textpower{
+	margin-top: 2.5px;
+	float: left;
+	width: 80%;
+	text-align: justify;
+	
+  }
+  
+.power-img {
+	float: right;
+	margin-right: 27px;
+	width: 15%;
+	position: relative;
+	bottom: -2px;
+  }
+
+  
